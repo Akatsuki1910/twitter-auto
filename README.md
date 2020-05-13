@@ -1,1 +1,3 @@
 # twitter-auto
+monacaのinappbrowserを使ってtweetdeckをスマホ版にしようとしたものです。
+文字入力の時にfooterが移動する原因が不明なのでお蔵入り。
