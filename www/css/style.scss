@@ -1,0 +1,167 @@
+.Button {
+	color: #ff0000 !important;
+}
+
+.js-app {
+	position: relative !important;
+	height: 100vh !important;
+}
+
+.js-app-header {
+	position: absolute !important;
+	bottom: 0px !important;
+	top: auto !important;
+	height: 10% !important;
+	width: 100% !important;
+}
+
+.js-app-header-inner {
+	width: 100% !important;
+	&>div {
+		position: absolute !important;
+	}
+	&>button {
+		display: inline !important;
+	}
+	&>nav {
+		width: 210px !important;
+		position: absolute !important;
+	}
+}
+
+.app-navigator {
+	top: 10px !important;
+	left: 190px !important;
+	a {
+		width: 35px !important;
+		display: inline-block !important;
+		&:before {
+			display: none !important;
+		}
+	}
+}
+
+.app-nav-link-text {
+  display: none !important;
+}
+
+$tweetbox:300px;
+.js-app-content {
+  height: 90% !important;
+  left:0px !important;
+  // transform: translateX($tweetbox) !important;
+  // margin-right: $tweetbox !important;
+  // .js-drawer{
+    // width: $tweetbox !important;
+    // left: -$tweetbox !important;
+  // }
+  .old-composer-footer{
+    width: calc(270px - 30px);
+  }
+}
+
+.js-int-scroller {
+  display: none !important;
+}
+
+.js-column-nav-menu-item {
+  display: inline-block !important;
+}
+
+.js-header-add-column {
+  display: inline-block !important;
+}
+
+.js-header-action[data-action="change-sidebar-width"] {
+  display: none !important;
+}
+
+.nav-user-info {
+  left: 70px !important;
+  width: 50px !important;
+  bottom: 0px !important;
+}
+
+.app-search-fake {
+  margin-top: 8px !important;
+  margin-bottom: 10px !important;
+  width: auto !important;
+}
+
+.js-search {
+  top: 10px !important;
+  left: 50px !important;
+  .js-popover{
+    left: -35px !important;
+    top: -500px !important;
+    .caret{
+      transform: rotate(180deg) !important;
+      top: 482px !important;
+      left: 50px !important;
+    }
+  }
+}
+
+.js-compose-controls {
+  margin-right: 0px !important;
+}
+
+.js-column-nav-scroller {
+  height: 50px !important;
+  width: 70px !important;
+  top: 10px !important;
+  left: 130px !important;
+}
+
+.js-column-nav-menu-flyover {
+  display: none !important;
+}
+
+.js-header-action.nbfc {
+  display: none !important;
+}
+
+.js-logo {
+  display: none !important;
+}
+
+.tooltip {
+  display: none !important;
+}
+
+.js-account-summary {
+  top: 54px !important;
+}
+
+.tweet-button{
+  width:36px !important;
+  border-radius:45px !important;
+}
+
+.js-app-columns{
+  padding:0px !important;
+  .js-column{
+    width:100vw !important;
+    margin:0px !important;
+    .caret{
+      margin-right:110px !important;
+    }
+    .js-dropdown{
+      margin-right:-150px !important;/*def-40px*/
+    }
+  }
+}
+
+.js-modal-context{
+  max-width: 100vw;
+  width: 100vw;
+  &:before{
+    height: 0px !important;
+  }
+}
+
+.js-modal{
+  &:before{
+    height: 0px !important;
+  }
+}
